@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    border: 2px solid #000000;
+}
+
+@media(min-width:768px){
+    .box{
+
+    
+    background-color: black;
+    
+}
+}
+@media(min-width:1024px) {
+    .box{background-color: blue;}
+    
+}
